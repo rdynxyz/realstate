@@ -555,6 +555,82 @@ video {
   position: absolute;
 }
 
+.right-\[50px\] {
+  right: 50px;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[rem\] {
+  right: rem;
+}
+
+.right-\[8rem\] {
+  right: 8rem;
+}
+
+.right-\[-8rem\] {
+  right: -8rem;
+}
+
+.right-\[-10rem\] {
+  right: -10rem;
+}
+
+.right-\[-100rem\] {
+  right: -100rem;
+}
+
+.right-\[-50rem\] {
+  right: -50rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.right-\[-1rem\] {
+  right: -1rem;
+}
+
+.right-\[-rem\] {
+  right: -rem;
+}
+
+.right-\[-5rem\] {
+  right: -5rem;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -617,6 +693,18 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .block {
@@ -743,10 +831,6 @@ video {
   border-bottom-width: .5px;
 }
 
-.border-l-\[\.5px\] {
-  border-left-width: .5px;
-}
-
 .border-r-\[1px\] {
   border-right-width: 1px;
 }
@@ -862,16 +946,12 @@ video {
   padding-bottom: 12px;
 }
 
-.pt-\[600px\] {
-  padding-top: 600px;
+.pt-\[580px\] {
+  padding-top: 580px;
 }
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
 }
 
 .pt-16 {
@@ -882,8 +962,12 @@ video {
   padding-top: 1rem;
 }
 
-.pt-\[580px\] {
-  padding-top: 580px;
+.pt-\[0px\] {
+  padding-top: 0px;
+}
+
+.pt-\[600px\] {
+  padding-top: 600px;
 }
 
 .text-left {
@@ -986,6 +1070,24 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
 .hover\:bg-secondary\/90:hover {
   background-color: rgb(74 96 161 / 0.9);
 }
@@ -1040,8 +1142,20 @@ video {
     position: relative;
   }
 
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
   .md\:block {

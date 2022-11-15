@@ -6,7 +6,8 @@ function navList(){
     navButton.classList.toggle("block")
     navButton.classList.toggle("none")
 
-    navBar.classList.toggle("hidden");
-    navBar2.classList.toggle("hidden");
+    navBar.classList.toggle("right-0");
+    navBar2.classList.toggle("right-0");
+    // navBar.classList.toggle("right-[-50rem]");
 
 }
